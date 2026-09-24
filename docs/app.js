@@ -69,12 +69,20 @@ function status(el, msg, error=false) {
     el.classList.toggle("error", error);
 }
 
-async function loadReference() {
+// The explorer (box plots of raw per-simulation values, parsed by
+// parse_results.py and unit-normalized to kWh) and the comparison
+// tool (aggregate population statistics from build_reference.py, in
+// EnergyPlus's native, unconverted units — MJ, W, etc.) are two
+// separate build outputs. They must be loaded and used separately:
+// metric_catalog.json drives the Explore tab, reference_metrics.json
+// drives the Compare tab.
+
+async function loadCatalog() {
     try {
-        const r = await fetch(path("data/reference_metrics.json"), {cache:"no-store"});
-        if (!r.ok) throw new Error(`reference_metrics.json: HTTP ${r.status}`);
-        reference = await r.json();
-        catalog = reference.metrics || [];
+        const r = await fetch(path("data/metric_catalog.json"), {cache:"no-store"});
+        if (!r.ok) throw new Error(`metric_catalog.json: HTTP ${r.status}`);
+        const data = await r.json();
+        catalog = data.metrics || [];
         status(exploreStatus, `${catalog.length.toLocaleString()} metrics loaded. Select a climate zone.`);
     } catch(e) {
         console.error(e);
@@ -82,15 +90,28 @@ async function loadReference() {
         status(
             exploreStatus,
             isFileProtocol
-                ? "Could not load reference data. You're opening this file directly (file://) — " +
+                ? "Could not load metric catalog. You're opening this file directly (file://) — " +
                   "browsers block fetch() for local files. Serve this folder with a local server " +
                   "instead, e.g. run 'python -m http.server' and open http://localhost:8000/."
-                : `Could not load reference data: ${e.message}`,
+                : `Could not load metric catalog: ${e.message}`,
             true
         );
     }
 }
-loadReference();
+loadCatalog();
+
+async function loadReferenceStats() {
+    try {
+        const r = await fetch(path("data/reference_metrics.json"), {cache:"no-store"});
+        if (!r.ok) throw new Error(`reference_metrics.json: HTTP ${r.status}`);
+        reference = await r.json();
+    } catch(e) {
+        console.error(e);
+        // Only affects the Compare tab — don't overwrite exploreStatus.
+        status(compareStatus, `Could not load reference data: ${e.message}`, true);
+    }
+}
+loadReferenceStats();
 
 /* ---------- tabs ---------- */
 document.querySelectorAll(".tab").forEach(button => {
@@ -184,13 +205,31 @@ document.addEventListener("click", e => {
 async function selectExploreMetric(metric) {
     metricSearch.value = metric.variable_name;
     suggestions.hidden = true;
+
+    if (!metric.file) {
+        // Whole-model summary metrics (from EnergyPlus tabular reports,
+        // e.g. "Site and Source Energy") are single values per
+        // simulation, not a per-timestep series — the parser has
+        // aggregate stats for these (used by the Compare tab) but
+        // never records a distribution file, so there's nothing to
+        // plot here.
+        showSummaryMetricInfo(metric);
+        chartContainer.hidden = true;
+        status(
+            exploreStatus,
+            "This is a whole-model summary value, not a per-simulation distribution, " +
+            "so there's no chart to plot. Reference median: " +
+            `${fmt(metric.median)} ${metric.unit || ""}, typical range ` +
+            `${fmt(metric.lower_fence)}–${fmt(metric.upper_fence)} ${metric.unit || ""}. ` +
+            "It's still used for comparison in the \"Check Your Model\" tab."
+        );
+        return;
+    }
+
     status(exploreStatus, "Loading metric...");
     try {
         /* Explorer metrics remain compatible with the V0 metric JSON files. */
-        const climate = metric.climate_zone;
-        const file = metric.file;
-        if (!file) throw new Error("This catalog entry has no metric file.");
-        const r = await fetch(path(`data/${file}`), {cache:"no-store"});
+        const r = await fetch(path(`data/${metric.file}`), {cache:"no-store"});
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         const data = await r.json();
         showMetricInfo(data);
@@ -201,6 +240,21 @@ async function selectExploreMetric(metric) {
     } catch(e) {
         status(exploreStatus, `Could not load metric: ${e.message}`, true);
     }
+}
+
+function showSummaryMetricInfo(metric) {
+    metricInfo.innerHTML = "";
+    const h = document.createElement("h2");
+    h.textContent = metric.variable_name || metric.display_name;
+    const p = document.createElement("p");
+    p.textContent = [
+        metric.key_value ? `Key: ${metric.key_value}` : "",
+        metric.unit ? `Unit: ${metric.unit}` : "",
+        metric.aggregation ? `Aggregation: ${metric.aggregation}` : "",
+        "Whole-model summary value (no per-simulation distribution)"
+    ].filter(Boolean).join("  |  ");
+    metricInfo.append(h, p);
+    metricInfo.hidden = false;
 }
 
 function showMetricInfo(data) {
