@@ -1,0 +1,1 @@
+{"metric_id":"m_b8d43dd6e9f7","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{4699afb2-98cf-4c01-a8b3-110d93b18deb}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Silchar.Kumbhirgram","state":"AS","latitude_category":"Latitude_GE_15","value":1400.0}]}

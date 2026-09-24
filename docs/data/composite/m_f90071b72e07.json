@@ -1,0 +1,1 @@
+{"metric_id":"m_f90071b72e07","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{b930c2a4-352e-4785-a264-8194950a96dd}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mandi","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

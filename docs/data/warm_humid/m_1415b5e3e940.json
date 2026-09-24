@@ -1,0 +1,1 @@
+{"metric_id":"m_1415b5e3e940","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{a7a2fbbe-ec3b-4cdb-a25c-ef81356834f5}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kolkata-Bose.Intl.AP","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_c95d64ea8792","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{7246241d-ff1c-4c53-924a-ed99068d8de9}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Lengpui.AP","state":"MZ","latitude_category":"Latitude_GE_15","value":1400.0}]}

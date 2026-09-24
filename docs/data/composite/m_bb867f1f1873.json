@@ -1,0 +1,1 @@
+{"metric_id":"m_bb867f1f1873","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{3517b214-043f-4894-972e-e6eabec9430c}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Hyderabad-Begumpet.AP","state":"TG","latitude_category":"Latitude_GE_15","value":1400.0}]}

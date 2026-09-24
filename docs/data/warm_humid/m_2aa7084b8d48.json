@@ -1,0 +1,1 @@
+{"metric_id":"m_2aa7084b8d48","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{1283e159-2780-4fbe-ae66-99e6fdf1e4db}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bijapur","state":"KA","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_04d0b4a30ee2","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{5f121c51-3c49-43ab-82d0-414c9af10e4b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Minicoy","state":"LD","latitude_category":"Latitude_LT_15","value":1400.0}]}

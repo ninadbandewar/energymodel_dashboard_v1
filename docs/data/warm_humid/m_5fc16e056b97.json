@@ -1,0 +1,1 @@
+{"metric_id":"m_5fc16e056b97","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{6fd20766-2372-452b-bf0d-56b229fffb59}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Golaghat","state":"AS","latitude_category":"Latitude_GE_15","value":1400.0}]}

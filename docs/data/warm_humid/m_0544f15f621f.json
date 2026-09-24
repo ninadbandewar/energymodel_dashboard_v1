@@ -1,0 +1,1 @@
+{"metric_id":"m_0544f15f621f","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{ed3b68dd-6ff1-4d96-8f03-d0c301b189f3}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Rangia","state":"AS","latitude_category":"Latitude_GE_15","value":0.1}]}

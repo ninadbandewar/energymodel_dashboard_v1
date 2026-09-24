@@ -1,0 +1,1 @@
+{"metric_id":"m_88a3c0b9698e","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{5f437a8a-02f0-4cc0-b887-493acfad1e8e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Haflong","state":"AS","latitude_category":"Latitude_GE_15","value":1400.0}]}

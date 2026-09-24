@@ -1,0 +1,1 @@
+{"metric_id":"m_6e85a635ded6","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{98cb6c1e-1871-47cd-b8b0-487f595a36b2}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dharmsala","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

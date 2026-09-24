@@ -1,0 +1,1 @@
+{"metric_id":"m_b03365930c97","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{945c7e0a-ffda-4bb4-90bd-63fc06bf59b1}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nizamabad","state":"TG","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_21715668a9d5","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{ca504fbb-ed6a-40ff-99da-afcf59015731}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Allahabad-Bamrauli.AP","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

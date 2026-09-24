@@ -1,0 +1,1 @@
+{"metric_id":"m_edf76e6d5cfe","climate_zone":"Composite","variable_name":"Materials.Density","key_value":"{e40501a1-da64-4c3f-aac0-f7957b9dd67f}","display_name":"Materials.Density","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gorakhpur","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

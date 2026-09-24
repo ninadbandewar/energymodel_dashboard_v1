@@ -1,0 +1,1 @@
+{"metric_id":"m_221d55c2a6d7","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{3b3e893b-b16a-4bf0-a166-7147505f1dfc}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dehri","state":"BR","latitude_category":"Latitude_GE_15","value":1400.0}]}

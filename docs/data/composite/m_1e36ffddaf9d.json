@@ -1,0 +1,1 @@
+{"metric_id":"m_1e36ffddaf9d","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{f74839ef-f1a0-4bc0-8498-308d204bc4dc}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Muzaffarpur","state":"BR","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_0067255efcf0","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{c3a2649f-2ddf-479c-a638-bcd0f8fd82bd}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bagalkote","state":"KA","latitude_category":"Latitude_GE_15","value":1400.0}]}

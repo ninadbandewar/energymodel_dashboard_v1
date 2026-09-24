@@ -1,0 +1,1 @@
+{"metric_id":"m_1d6bb5e35e2e","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{e3977821-6345-4123-9583-c7696669a70a}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gangtok","state":"SK","latitude_category":"Latitude_GE_15","value":1400.0}]}

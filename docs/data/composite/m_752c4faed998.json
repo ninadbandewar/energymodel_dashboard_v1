@@ -1,0 +1,1 @@
+{"metric_id":"m_752c4faed998","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{e2b584d8-836e-491e-b01f-eb2f2027290a}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jharsuguda.AP","state":"OR","latitude_category":"Latitude_GE_15","value":0.1}]}

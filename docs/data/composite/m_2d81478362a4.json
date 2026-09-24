@@ -1,0 +1,1 @@
+{"metric_id":"m_2d81478362a4","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{3838a0b6-a88f-47a9-950f-465576dbba9e}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sagar","state":"MP","latitude_category":"Latitude_GE_15","value":0.1}]}

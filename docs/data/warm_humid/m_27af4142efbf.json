@@ -1,0 +1,1 @@
+{"metric_id":"m_27af4142efbf","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{7d6bc9e3-dba6-4b80-81ee-870f3d4ee93c}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Baripada","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

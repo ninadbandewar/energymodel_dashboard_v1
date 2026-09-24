@@ -1,0 +1,1 @@
+{"metric_id":"m_ba07dd4576e5","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{2b567834-bfc3-4364-b3de-1813f56a96f8}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kolhapur.AP","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

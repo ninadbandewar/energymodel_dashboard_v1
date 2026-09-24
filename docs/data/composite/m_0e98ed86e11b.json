@@ -1,0 +1,1 @@
+{"metric_id":"m_0e98ed86e11b","climate_zone":"Composite","variable_name":"Materials.Thickness","key_value":"{690fa20b-b89f-426c-8636-b35701609d15}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Naliya","state":"GJ","latitude_category":"Latitude_GE_15","value":0.1}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_6b379385708c","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{92bed2b7-33e3-4f2c-bc71-4a1fe734cf7e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Guna","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

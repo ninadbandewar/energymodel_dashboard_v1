@@ -1,0 +1,1 @@
+{"metric_id":"m_251c2b41296f","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{a741cc01-af3e-44b1-93e9-6bf801bd259b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Udaipur-Pratap.AP","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

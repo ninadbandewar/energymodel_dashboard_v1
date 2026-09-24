@@ -1,0 +1,1 @@
+{"metric_id":"m_65baaf9aea2f","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{4e5d4702-ef13-441d-889a-740a5856b273}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Amini.AP","state":"LD","latitude_category":"Latitude_LT_15","value":1400.0}]}

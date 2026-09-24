@@ -1,0 +1,1 @@
+{"metric_id":"m_4b4edb1cbbd6","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{c2c5004b-91b9-4953-9166-9e730d458b83}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Agra.AP","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

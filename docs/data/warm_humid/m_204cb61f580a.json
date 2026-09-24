@@ -1,0 +1,1 @@
+{"metric_id":"m_204cb61f580a","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{165307ca-8306-40e5-9017-b32db1ec7b85}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Phulbani","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

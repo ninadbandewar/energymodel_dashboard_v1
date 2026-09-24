@@ -1,0 +1,1 @@
+{"metric_id":"m_0b6e0120fd38","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{1618a22d-d4d1-485e-b538-da2ff9464d73}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Rajnandgaon","state":"CT","latitude_category":"Latitude_GE_15","value":1400.0}]}

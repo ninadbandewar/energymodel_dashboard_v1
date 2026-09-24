@@ -1,0 +1,1 @@
+{"metric_id":"m_9bc46e46c475","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{08b00ca6-bfa6-4bb1-867b-b2fc88607aa7}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Imphal","state":"MN","latitude_category":"Latitude_GE_15","value":1400.0}]}

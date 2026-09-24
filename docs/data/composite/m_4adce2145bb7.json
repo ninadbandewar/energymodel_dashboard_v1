@@ -1,0 +1,1 @@
+{"metric_id":"m_4adce2145bb7","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{3a04302f-ebf1-4b39-83e0-acd925e47d39}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mana","state":"CT","latitude_category":"Latitude_GE_15","value":0.1}]}

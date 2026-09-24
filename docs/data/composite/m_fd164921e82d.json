@@ -1,0 +1,1 @@
+{"metric_id":"m_fd164921e82d","climate_zone":"Composite","variable_name":"Materials.Resistance","key_value":"{0c24eec7-a5cc-4eb1-9fdb-6b33daa96907}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dehradun","state":"UT","latitude_category":"Latitude_GE_15","value":1.0}]}

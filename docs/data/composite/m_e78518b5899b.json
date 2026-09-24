@@ -1,0 +1,1 @@
+{"metric_id":"m_e78518b5899b","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{057f7f01-499b-43db-8316-4e2e3fd22076}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nowgong","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_f6f3a9b8e097","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{9c091230-4e51-4f19-b9db-4f9ee29d2e69}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Siliguri","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

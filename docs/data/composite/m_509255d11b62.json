@@ -1,0 +1,1 @@
+{"metric_id":"m_509255d11b62","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{8a303eed-ab8a-4841-8fd0-fbe04766bda1}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Rohtak","state":"HR","latitude_category":"Latitude_GE_15","value":0.1}]}

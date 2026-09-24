@@ -1,0 +1,1 @@
+{"metric_id":"m_488cdad66f9a","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{4e0c2100-f625-4486-8ce0-5660b99fe72e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kolar.Gold.Fields","state":"KA","latitude_category":"Latitude_LT_15","value":1400.0}]}

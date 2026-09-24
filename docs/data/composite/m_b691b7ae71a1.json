@@ -1,0 +1,1 @@
+{"metric_id":"m_b691b7ae71a1","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{d4562076-2c0b-48a9-8a03-1d7b10c613cc}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Pilani","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

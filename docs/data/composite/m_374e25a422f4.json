@@ -1,0 +1,1 @@
+{"metric_id":"m_374e25a422f4","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{0adec242-6a52-480e-b632-70c85542af89}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ferozepur","state":"PB","latitude_category":"Latitude_GE_15","value":1400.0}]}

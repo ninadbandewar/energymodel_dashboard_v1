@@ -1,0 +1,1 @@
+{"metric_id":"m_744d191b2c5f","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{95276936-b0b7-41c4-8f0f-7e67d47eddad}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Shivpuri","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

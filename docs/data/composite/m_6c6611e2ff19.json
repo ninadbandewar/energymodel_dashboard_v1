@@ -1,0 +1,1 @@
+{"metric_id":"m_6c6611e2ff19","climate_zone":"Composite","variable_name":"Materials.Thickness","key_value":"{9cbc8ebb-067d-4c4a-914a-3e38096b1bac}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Roorkee","state":"UT","latitude_category":"Latitude_GE_15","value":0.1}]}

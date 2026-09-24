@@ -1,0 +1,1 @@
+{"metric_id":"m_749c5be12c15","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{14cbe863-3bcb-4804-9fee-7fe56a3290b3}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Moradabad","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

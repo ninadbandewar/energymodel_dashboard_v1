@@ -1,0 +1,1 @@
+{"metric_id":"m_c6f45a524cd7","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{1382f0b0-6e8f-429d-beb1-7cc0f52dabf6}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bulsar","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

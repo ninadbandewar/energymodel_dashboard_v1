@@ -1,0 +1,1 @@
+{"metric_id":"m_d44ebf989c23","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{c23f188c-78bd-4767-a16e-7d5a5beee9db}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mahuva","state":"GJ","latitude_category":"Latitude_GE_15","value":0.1}]}

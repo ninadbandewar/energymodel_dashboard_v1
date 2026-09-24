@@ -1,0 +1,1 @@
+{"metric_id":"m_9b466cf4e47a","climate_zone":"Composite","variable_name":"Materials.Resistance","key_value":"{db4b1927-06ce-4ccd-8dd2-539b204cecec}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Alwar","state":"RJ","latitude_category":"Latitude_GE_15","value":1.0}]}

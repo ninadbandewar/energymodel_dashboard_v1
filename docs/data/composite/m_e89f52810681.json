@@ -1,0 +1,1 @@
+{"metric_id":"m_e89f52810681","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{7c93566c-0d71-4744-8777-cfbd7f6b3cdf}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Hazaribagh","state":"JH","latitude_category":"Latitude_GE_15","value":1400.0}]}

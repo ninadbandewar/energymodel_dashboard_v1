@@ -1,0 +1,1 @@
+{"metric_id":"m_68eab1fc0b7a","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{d62958ff-b703-4616-ba29-eef15373af12}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Raigarh","state":"CT","latitude_category":"Latitude_GE_15","value":1400.0}]}

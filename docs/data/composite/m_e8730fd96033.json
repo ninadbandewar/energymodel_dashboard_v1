@@ -1,0 +1,1 @@
+{"metric_id":"m_e8730fd96033","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{313f2e05-d56d-43c5-b67d-40c7b4c8eaec}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Pantnagar","state":"UT","latitude_category":"Latitude_GE_15","value":1400.0}]}

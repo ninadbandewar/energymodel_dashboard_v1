@@ -1,0 +1,1 @@
+{"metric_id":"m_d0a5da7c2805","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{a3fedfc7-54ce-487f-a128-2ce4886e1aef}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jashpur.Nagar","state":"CT","latitude_category":"Latitude_GE_15","value":0.1}]}

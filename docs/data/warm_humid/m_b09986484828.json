@@ -1,0 +1,1 @@
+{"metric_id":"m_b09986484828","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{e1d4e031-25c7-40cf-8af0-917aef34432f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Cherrapunji","state":"ML","latitude_category":"Latitude_GE_15","value":1400.0}]}

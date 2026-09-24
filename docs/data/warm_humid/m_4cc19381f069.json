@@ -1,0 +1,1 @@
+{"metric_id":"m_4cc19381f069","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{16561c22-8845-4105-bfca-fe047f867a17}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Tuni","state":"AP","latitude_category":"Latitude_GE_15","value":1400.0}]}

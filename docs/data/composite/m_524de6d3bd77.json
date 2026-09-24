@@ -1,0 +1,1 @@
+{"metric_id":"m_524de6d3bd77","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{c1b9dfe2-e687-472c-917d-5baa99b213db}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Narnaul","state":"HR","latitude_category":"Latitude_GE_15","value":0.1}]}

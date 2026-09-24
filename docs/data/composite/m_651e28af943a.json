@@ -1,0 +1,1 @@
+{"metric_id":"m_651e28af943a","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{3838a0b6-a88f-47a9-950f-465576dbba9e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sagar","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

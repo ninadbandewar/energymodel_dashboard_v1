@@ -1,0 +1,1 @@
+{"metric_id":"m_4d47c4d81320","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{4c8b918e-9f12-42ce-8e84-c83b8d88920f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Angul","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

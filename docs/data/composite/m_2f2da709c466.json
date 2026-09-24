@@ -1,0 +1,1 @@
+{"metric_id":"m_2f2da709c466","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{4096a218-605c-43dd-a9a0-e9dbd583d131}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Fursatganj","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

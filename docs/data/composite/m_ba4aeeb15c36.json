@@ -1,0 +1,1 @@
+{"metric_id":"m_ba4aeeb15c36","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{d83b7eea-862d-4bed-b593-d36f2de0d0e5}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Indore-Holkar.Intl.AP","state":"MP","latitude_category":"Latitude_GE_15","value":0.1}]}

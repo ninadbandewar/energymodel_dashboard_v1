@@ -1,0 +1,1 @@
+{"metric_id":"m_5310e6655061","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{9cf01984-2411-47a0-ae9a-1363987da425}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Barapani","state":"ML","latitude_category":"Latitude_GE_15","value":1400.0}]}

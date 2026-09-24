@@ -1,0 +1,1 @@
+{"metric_id":"m_27b4231945ca","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{055158be-f312-400c-8dcb-8fc370b6d7b3}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nagpur.Mayo.Hospital","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

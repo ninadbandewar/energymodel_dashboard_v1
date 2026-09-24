@@ -1,0 +1,1 @@
+{"metric_id":"m_1ec066eb3d84","climate_zone":"Hot & Dry","variable_name":"Materials.Conductivity","key_value":"{971de9ab-873c-42fb-9003-334b756e8040}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kota.AP","state":"RJ","latitude_category":"Latitude_GE_15","value":0.1}]}

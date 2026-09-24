@@ -1,0 +1,1 @@
+{"metric_id":"m_f4bbd87f9634","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{71220381-0cb9-40b8-ab4c-89004957734d}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Panna","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

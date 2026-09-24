@@ -1,0 +1,1 @@
+{"metric_id":"m_c4bbee2df79d","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{e6a0e6a4-830b-454f-b921-a4a8fc81fbb5}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gondia","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

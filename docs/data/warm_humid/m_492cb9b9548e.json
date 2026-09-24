@@ -1,0 +1,1 @@
+{"metric_id":"m_492cb9b9548e","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{1876de02-143f-4ebb-aa6d-91be05a52137}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Car.Nicobar","state":"AN","latitude_category":"Latitude_LT_15","value":1400.0}]}

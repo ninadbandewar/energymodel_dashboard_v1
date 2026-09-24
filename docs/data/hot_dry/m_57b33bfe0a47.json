@@ -1,0 +1,1 @@
+{"metric_id":"m_57b33bfe0a47","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{6a597d38-179c-45f4-a094-35c134d7371b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bir","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

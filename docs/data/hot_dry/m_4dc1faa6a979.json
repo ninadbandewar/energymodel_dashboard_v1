@@ -1,0 +1,1 @@
+{"metric_id":"m_4dc1faa6a979","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{83545254-f0a0-4e7c-b55d-e4fac0e2aaf9}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bundi","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

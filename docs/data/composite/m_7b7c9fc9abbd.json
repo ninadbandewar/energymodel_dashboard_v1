@@ -1,0 +1,1 @@
+{"metric_id":"m_7b7c9fc9abbd","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{a3fedfc7-54ce-487f-a128-2ce4886e1aef}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jashpur.Nagar","state":"CT","latitude_category":"Latitude_GE_15","value":1400.0}]}

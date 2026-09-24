@@ -1,0 +1,1 @@
+{"metric_id":"m_d1c3f0e46879","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{095b2e4b-377b-4bdb-857e-8e69bc57abc5}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jorhat.AP","state":"AS","latitude_category":"Latitude_GE_15","value":0.1}]}

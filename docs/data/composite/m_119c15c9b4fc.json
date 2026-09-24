@@ -1,0 +1,1 @@
+{"metric_id":"m_119c15c9b4fc","climate_zone":"Composite","variable_name":"Materials.Resistance","key_value":"{00f5d1b0-6697-4e21-b7b8-7091ab50f9da}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Raisen","state":"MP","latitude_category":"Latitude_GE_15","value":1.0}]}

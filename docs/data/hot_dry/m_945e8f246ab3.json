@@ -1,0 +1,1 @@
+{"metric_id":"m_945e8f246ab3","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{30775f0f-87bb-4ca4-a763-62387c712b27}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Baroda.AP","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

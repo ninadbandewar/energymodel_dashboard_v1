@@ -1,0 +1,1 @@
+{"metric_id":"m_1d0e3b0a4066","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{06bdcb78-443a-46bc-b57a-9dfeb05820b6}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Khandwa","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

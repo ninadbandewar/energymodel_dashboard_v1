@@ -1,0 +1,1 @@
+{"metric_id":"m_cc6c3632de08","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{799ed4ce-4ada-4352-9bfb-487509f0f580}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Darbhanga","state":"BR","latitude_category":"Latitude_GE_15","value":1400.0}]}

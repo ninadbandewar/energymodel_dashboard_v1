@@ -1,0 +1,1 @@
+{"metric_id":"m_3e56499aae33","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{5fcf930f-7629-480f-930c-cedeb852591e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sagar.Island","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_cbcbdd158974","climate_zone":"Temperate","variable_name":"Materials.SpecHeat","key_value":"{02e47273-9943-4c17-a46f-134633eeeef5}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bengaluru","state":"KA","latitude_category":"Latitude_LT_15","value":1400.0}]}

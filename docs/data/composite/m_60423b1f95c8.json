@@ -1,0 +1,1 @@
+{"metric_id":"m_60423b1f95c8","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{b41dc51a-919a-4b47-86c5-cc40fcf910a8}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Fatehpur","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

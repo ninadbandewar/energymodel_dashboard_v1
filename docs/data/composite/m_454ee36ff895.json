@@ -1,0 +1,1 @@
+{"metric_id":"m_454ee36ff895","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{f74839ef-f1a0-4bc0-8498-308d204bc4dc}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Muzaffarpur","state":"BR","latitude_category":"Latitude_GE_15","value":0.1}]}

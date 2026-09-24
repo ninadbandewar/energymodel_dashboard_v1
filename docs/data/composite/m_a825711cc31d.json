@@ -1,0 +1,1 @@
+{"metric_id":"m_a825711cc31d","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{3f7c4d76-1ddf-42b0-a29d-d37bdc54a42a}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kanpur.Chakeri","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

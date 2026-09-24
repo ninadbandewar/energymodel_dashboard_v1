@@ -1,0 +1,1 @@
+{"metric_id":"m_69bf33ef9662","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{4f4be342-a5cf-4e05-a06c-bedce933aa45}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Khammam","state":"TG","latitude_category":"Latitude_GE_15","value":1400.0}]}

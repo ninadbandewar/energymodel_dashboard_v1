@@ -1,0 +1,1 @@
+{"metric_id":"m_5af4ad7bed17","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{a4386f7d-fe2d-4faf-b98e-3c5b427caf57}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Chandrapur","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

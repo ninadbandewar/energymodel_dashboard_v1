@@ -1,0 +1,1 @@
+{"metric_id":"m_6ad298058fed","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{d1a0d10b-18f1-4ecf-86c8-9e131716286b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sundernagar","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

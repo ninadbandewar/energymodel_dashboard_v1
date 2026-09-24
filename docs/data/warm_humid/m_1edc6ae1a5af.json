@@ -1,0 +1,1 @@
+{"metric_id":"m_1edc6ae1a5af","climate_zone":"Warm & Humid","variable_name":"Materials.Thickness","key_value":"{025c2e4d-54e7-4153-9f3e-eb21cf7ee28a}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Diamond.Harbour","state":"WB","latitude_category":"Latitude_GE_15","value":0.1}]}

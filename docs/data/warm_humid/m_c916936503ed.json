@@ -1,0 +1,1 @@
+{"metric_id":"m_c916936503ed","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{9e35f19c-e584-41ee-a9ab-758845cf95dd}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bhawanipatna","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

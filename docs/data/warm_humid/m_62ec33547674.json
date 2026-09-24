@@ -1,0 +1,1 @@
+{"metric_id":"m_62ec33547674","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{eaa30d33-56fe-4e50-95bb-6ffa27029141}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Raxaul","state":"BR","latitude_category":"Latitude_GE_15","value":1400.0}]}

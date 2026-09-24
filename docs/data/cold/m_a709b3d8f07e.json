@@ -1,0 +1,1 @@
+{"metric_id":"m_a709b3d8f07e","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{3b5c631d-abda-42e3-9697-a1d3f3b6de58}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Satara","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

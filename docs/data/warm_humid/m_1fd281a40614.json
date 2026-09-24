@@ -1,0 +1,1 @@
+{"metric_id":"m_1fd281a40614","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{eb2df02e-e521-477c-855b-15689100268b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Titlagarh","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

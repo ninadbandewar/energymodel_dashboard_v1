@@ -1,0 +1,1 @@
+{"metric_id":"m_b94ec83fb318","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{ee3b7c86-f641-4520-84da-bc13d93eac19}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Puri","state":"OR","latitude_category":"Latitude_GE_15","value":0.1}]}

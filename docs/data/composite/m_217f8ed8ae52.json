@@ -1,0 +1,1 @@
+{"metric_id":"m_217f8ed8ae52","climate_zone":"Composite","variable_name":"Materials.Thickness","key_value":"{576f0cd0-919c-4dd1-8f69-b5ad594308ed}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bilaspur.AP","state":"HP","latitude_category":"Latitude_GE_15","value":0.1}]}

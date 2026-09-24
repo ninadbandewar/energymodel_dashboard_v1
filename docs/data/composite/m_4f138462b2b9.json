@@ -1,0 +1,1 @@
+{"metric_id":"m_4f138462b2b9","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{0018a344-e3ad-4082-9277-961f0e87b1ad}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nahan","state":"HR","latitude_category":"Latitude_GE_15","value":0.1}]}

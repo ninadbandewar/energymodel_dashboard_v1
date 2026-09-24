@@ -1,0 +1,1 @@
+{"metric_id":"m_304ec6c5f4c5","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{3b3fa878-51ee-45b7-932e-db57387a9b1a}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Khargone","state":"MP","latitude_category":"Latitude_GE_15","value":0.1}]}

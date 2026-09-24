@@ -1,0 +1,1 @@
+{"metric_id":"m_501fcba3d8c1","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{63c6fbb3-c19c-445b-8cbc-75e55011b246}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Narsapur","state":"AP","latitude_category":"Latitude_GE_15","value":1400.0}]}

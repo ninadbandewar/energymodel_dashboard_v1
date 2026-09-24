@@ -1,0 +1,1 @@
+{"metric_id":"m_6f6add1cd1a4","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{0ffc7872-4e57-4334-a8ed-937a1ce4442a}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Yeotmal","state":"MH","latitude_category":"Latitude_GE_15","value":0.1}]}

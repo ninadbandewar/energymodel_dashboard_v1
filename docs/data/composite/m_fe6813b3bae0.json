@@ -1,0 +1,1 @@
+{"metric_id":"m_fe6813b3bae0","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{fad9f9f6-72ed-49fc-b64f-2ab24f7985a1}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dhar","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

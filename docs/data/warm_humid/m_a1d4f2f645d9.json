@@ -1,0 +1,1 @@
+{"metric_id":"m_a1d4f2f645d9","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{dbf27d26-cb2b-4a78-a7ef-79864f4a7367}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nellore","state":"AP","latitude_category":"Latitude_LT_15","value":1400.0}]}

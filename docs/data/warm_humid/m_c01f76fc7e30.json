@@ -1,0 +1,1 @@
+{"metric_id":"m_c01f76fc7e30","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{6ce9c8cf-eddc-444f-a927-1ca5af3a71e2}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Tura","state":"ML","latitude_category":"Latitude_GE_15","value":0.1}]}

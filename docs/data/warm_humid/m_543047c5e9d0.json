@@ -1,0 +1,1 @@
+{"metric_id":"m_543047c5e9d0","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{3158138d-9297-4b8a-8658-15f7a1765002}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Veraval","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

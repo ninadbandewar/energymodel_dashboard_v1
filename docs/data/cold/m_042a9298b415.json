@@ -1,0 +1,1 @@
+{"metric_id":"m_042a9298b415","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{e929718c-6040-455f-a316-f1f5bddbe929}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jammu.In.Afb","state":"JK","latitude_category":"Latitude_GE_15","value":1400.0}]}

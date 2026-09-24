@@ -1,0 +1,1 @@
+{"metric_id":"m_14d14878ea7e","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{3bc7a19b-c5bd-4b9f-9456-40e7df86136f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Cuttack","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

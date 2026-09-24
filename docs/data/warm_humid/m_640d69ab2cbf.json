@@ -1,0 +1,1 @@
+{"metric_id":"m_640d69ab2cbf","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{ac06fabf-44ec-4df6-a42d-f2ebfc708518}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Thrissur","state":"KL","latitude_category":"Latitude_LT_15","value":1400.0}]}

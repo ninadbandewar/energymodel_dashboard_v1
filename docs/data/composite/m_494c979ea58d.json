@@ -1,0 +1,1 @@
+{"metric_id":"m_494c979ea58d","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{a07e17c9-82bc-49c1-9193-2f7f6c0ed2d8}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Daltonganj","state":"JH","latitude_category":"Latitude_GE_15","value":1400.0}]}

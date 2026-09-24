@@ -1,0 +1,1 @@
+{"metric_id":"m_b4a6b582283b","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{19ac2a07-7f54-4a92-8e5b-088a2d25c74f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Tonk","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

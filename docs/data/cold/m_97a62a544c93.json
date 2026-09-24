@@ -1,0 +1,1 @@
+{"metric_id":"m_97a62a544c93","climate_zone":"Cold","variable_name":"Materials.Resistance","key_value":"{ab4a8f51-262f-4f89-8ec6-87d0f4b3f5e3}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Tehri","state":"UT","latitude_category":"Latitude_GE_15","value":1.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_971ce9d0f160","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{1abe20a9-760f-43d9-8192-a065374daf9a}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Idar","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

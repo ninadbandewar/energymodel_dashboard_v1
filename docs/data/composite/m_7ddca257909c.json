@@ -1,0 +1,1 @@
+{"metric_id":"m_7ddca257909c","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{adaad98b-f23c-4651-ad5d-6256a76c1bfd}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Hardoi","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

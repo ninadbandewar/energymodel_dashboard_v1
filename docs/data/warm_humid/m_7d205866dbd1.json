@@ -1,0 +1,1 @@
+{"metric_id":"m_7d205866dbd1","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{419f9bd3-267f-48fa-8f70-e7fb33ddd87f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Motihari","state":"BR","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_376a7dac0685","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{3a04302f-ebf1-4b39-83e0-acd925e47d39}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mana","state":"CT","latitude_category":"Latitude_GE_15","value":1400.0}]}

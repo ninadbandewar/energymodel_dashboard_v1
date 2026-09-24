@@ -1,0 +1,1 @@
+{"metric_id":"m_e00e3e816cf8","climate_zone":"Composite","variable_name":"Materials.Density","key_value":"{142e5cea-5005-4525-aea6-f86f2a07f9ea}","display_name":"Materials.Density","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Medak","state":"TG","latitude_category":"Latitude_GE_15","value":0.1}]}

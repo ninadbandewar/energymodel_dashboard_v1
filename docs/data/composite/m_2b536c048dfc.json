@@ -1,0 +1,1 @@
+{"metric_id":"m_2b536c048dfc","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{d44b4cd3-b9f5-4dd1-bc83-4fc5ba78fd1a}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Anupgarh","state":"RJ","latitude_category":"Latitude_GE_15","value":0.1}]}

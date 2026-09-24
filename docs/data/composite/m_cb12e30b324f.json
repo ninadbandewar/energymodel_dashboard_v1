@@ -1,0 +1,1 @@
+{"metric_id":"m_cb12e30b324f","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{db2384a5-1cd1-427d-9b10-4fef124c6a80}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Patiala","state":"PB","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_f1bb3c57c71e","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{1045afa2-58f7-42c9-a108-aa6a2142e34a}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Cannur","state":"KL","latitude_category":"Latitude_LT_15","value":1400.0}]}

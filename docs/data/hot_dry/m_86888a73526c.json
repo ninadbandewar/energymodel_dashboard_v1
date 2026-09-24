@@ -1,0 +1,1 @@
+{"metric_id":"m_86888a73526c","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{352aa70c-1e80-4cb2-819d-7be56b6fea18}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Washim","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

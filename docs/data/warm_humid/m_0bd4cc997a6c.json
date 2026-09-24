@@ -1,0 +1,1 @@
+{"metric_id":"m_0bd4cc997a6c","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{8d7b1ac6-ad4f-49ed-a8d7-dca2fbeff230}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Cooch.Behar","state":"WB","latitude_category":"Latitude_GE_15","value":0.1}]}

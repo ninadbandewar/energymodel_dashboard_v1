@@ -1,0 +1,1 @@
+{"metric_id":"m_20eb05977b39","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{5dbd5d6f-76d4-4b4c-b688-e531fd11c01f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Puducherry.AP","state":"PY","latitude_category":"Latitude_LT_15","value":1400.0}]}

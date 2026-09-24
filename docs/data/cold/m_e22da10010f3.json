@@ -1,0 +1,1 @@
+{"metric_id":"m_e22da10010f3","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{061f2655-fe43-4aa4-89b4-84b2fa55a5b8}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Srinagar","state":"JK","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_f4f1cc1f433d","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{accc6ff1-4e6c-411e-9526-403d95062d70}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ratnagiri","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

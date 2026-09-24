@@ -1,0 +1,1 @@
+{"metric_id":"m_05b1a94e2fd2","climate_zone":"Cold","variable_name":"Materials.Conductivity","key_value":"{3b5c631d-abda-42e3-9697-a1d3f3b6de58}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Satara","state":"MH","latitude_category":"Latitude_GE_15","value":0.1}]}

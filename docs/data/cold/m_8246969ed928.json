@@ -1,0 +1,1 @@
+{"metric_id":"m_8246969ed928","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{8ff05ab0-876a-4f33-b54b-c0cfd3fddbd9}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gulmarg","state":"JK","latitude_category":"Latitude_GE_15","value":1400.0}]}

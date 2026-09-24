@@ -1,0 +1,1 @@
+{"metric_id":"m_a391b40e5288","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{c3ef8a8b-dfe9-4b97-a047-e2805f17df50}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Diu.AP","state":"DD","latitude_category":"Latitude_GE_15","value":0.1}]}

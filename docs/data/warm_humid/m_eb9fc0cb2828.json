@@ -1,0 +1,1 @@
+{"metric_id":"m_eb9fc0cb2828","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{d42bbb58-babd-4088-b97e-0883189c5fd8}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gohpur","state":"AS","latitude_category":"Latitude_GE_15","value":0.1}]}

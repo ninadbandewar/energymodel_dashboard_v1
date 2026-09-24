@@ -1,0 +1,1 @@
+{"metric_id":"m_08c08629921e","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{1d50a7e1-f6b5-4c0b-ae97-a48a420d4738}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Banda","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

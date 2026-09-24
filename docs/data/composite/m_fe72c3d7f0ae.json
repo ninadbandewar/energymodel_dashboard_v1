@@ -1,0 +1,1 @@
+{"metric_id":"m_fe72c3d7f0ae","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{ccd445f0-641a-4be3-b33d-772aed49753b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Umaria","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

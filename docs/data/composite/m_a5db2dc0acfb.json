@@ -1,0 +1,1 @@
+{"metric_id":"m_a5db2dc0acfb","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{252487f2-f26c-4bff-b14d-e83032355daf}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Damoh","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

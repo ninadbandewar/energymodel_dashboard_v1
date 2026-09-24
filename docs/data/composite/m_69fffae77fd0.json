@@ -1,0 +1,1 @@
+{"metric_id":"m_69fffae77fd0","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{0adec242-6a52-480e-b632-70c85542af89}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ferozepur","state":"PB","latitude_category":"Latitude_GE_15","value":0.1}]}

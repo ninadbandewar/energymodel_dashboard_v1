@@ -1,0 +1,1 @@
+{"metric_id":"m_1cdc95f36c0d","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{cbefd3ae-bc42-476c-a5d6-836609b47f0b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jhalawar","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_8527d62f23b7","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{c12daf54-84fd-4dc6-be4c-a4beb41f46db}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bahraich","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

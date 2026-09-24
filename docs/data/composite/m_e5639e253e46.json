@@ -1,0 +1,1 @@
+{"metric_id":"m_e5639e253e46","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{b4331a3e-cd61-4815-bb54-f737f184f751}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Varanasi","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

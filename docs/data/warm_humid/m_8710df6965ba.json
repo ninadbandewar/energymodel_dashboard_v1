@@ -1,0 +1,1 @@
+{"metric_id":"m_8710df6965ba","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{228d2ce1-a4bf-43b5-ad71-f25211c0ea3e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ramgundam.RS","state":"TG","latitude_category":"Latitude_GE_15","value":1400.0}]}

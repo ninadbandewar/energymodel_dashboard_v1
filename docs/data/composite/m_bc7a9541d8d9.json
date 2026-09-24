@@ -1,0 +1,1 @@
+{"metric_id":"m_bc7a9541d8d9","climate_zone":"Composite","variable_name":"Materials.Density","key_value":"{51ccffa5-a2b6-4e26-b005-4fab9061b560}","display_name":"Materials.Density","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mandla","state":"MP","latitude_category":"Latitude_GE_15","value":0.1}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_b32c37bb26f2","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{e9b5e7de-eb4a-4bad-89f7-7fab4894cf12}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Balasore","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

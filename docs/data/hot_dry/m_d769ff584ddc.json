@@ -1,0 +1,1 @@
+{"metric_id":"m_d769ff584ddc","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{7bdca8e0-beaf-453b-91cf-3130cecca74d}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nashik.Ozar","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

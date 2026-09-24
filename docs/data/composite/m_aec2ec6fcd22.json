@@ -1,0 +1,1 @@
+{"metric_id":"m_aec2ec6fcd22","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{7f14f16c-427d-4cc4-b420-bc63cf83386b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Chhindwara","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

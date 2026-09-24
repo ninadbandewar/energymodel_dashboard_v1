@@ -1,0 +1,1 @@
+{"metric_id":"m_a8e69c8b7f8f","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{576f0cd0-919c-4dd1-8f69-b5ad594308ed}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bilaspur.AP","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

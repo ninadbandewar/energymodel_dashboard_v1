@@ -1,0 +1,1 @@
+{"metric_id":"m_d83e80c3073e","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{ab4a8f51-262f-4f89-8ec6-87d0f4b3f5e3}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Tehri","state":"UT","latitude_category":"Latitude_GE_15","value":1400.0}]}

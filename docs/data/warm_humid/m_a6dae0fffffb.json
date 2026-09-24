@@ -1,0 +1,1 @@
+{"metric_id":"m_a6dae0fffffb","climate_zone":"Warm & Humid","variable_name":"Materials.Thickness","key_value":"{59bb7a77-2b16-449e-b151-0f6c87fec6b3}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Hut.Bay","state":"AN","latitude_category":"Latitude_LT_15","value":0.1}]}

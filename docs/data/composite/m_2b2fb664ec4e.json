@@ -1,0 +1,1 @@
+{"metric_id":"m_2b2fb664ec4e","climate_zone":"Composite","variable_name":"Materials.Thickness","key_value":"{fad9f9f6-72ed-49fc-b64f-2ab24f7985a1}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dhar","state":"MP","latitude_category":"Latitude_GE_15","value":0.1}]}

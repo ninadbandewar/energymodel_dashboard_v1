@@ -1,0 +1,1 @@
+{"metric_id":"m_3eaaa6cfeef7","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{e58aa4e4-8073-4d6b-9593-80e661fdaf0c}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Deesa","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

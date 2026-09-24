@@ -1,0 +1,1 @@
+{"metric_id":"m_3644bb54ac51","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{8792cbd7-da82-446a-aae4-c7af39ca0452}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Erinpura.Jawai.Dam.Site","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_f757834b21e5","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{e2906215-d9d9-458e-b472-72b454e60d69}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Devgarh","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

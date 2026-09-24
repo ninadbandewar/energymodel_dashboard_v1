@@ -1,0 +1,1 @@
+{"metric_id":"m_331efc2fcf22","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{95fe76f9-99d7-4098-a2e2-af25e052d976}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mainpuri","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

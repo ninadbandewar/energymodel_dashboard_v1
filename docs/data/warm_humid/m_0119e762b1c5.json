@@ -1,0 +1,1 @@
+{"metric_id":"m_0119e762b1c5","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{bd3c308f-60db-466a-9229-b4f56d344573}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kailashahar","state":"TR","latitude_category":"Latitude_GE_15","value":1400.0}]}

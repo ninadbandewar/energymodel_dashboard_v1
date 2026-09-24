@@ -1,0 +1,1 @@
+{"metric_id":"m_6a505c291e87","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{265ef331-6e41-45f1-aea1-264418a1272d}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Pusad","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_71e7186343aa","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{2c05d9de-eac0-4f6a-8fdc-1d66a60b5770}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ratlam","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

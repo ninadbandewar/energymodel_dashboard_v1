@@ -1,0 +1,1 @@
+{"metric_id":"m_33d7e5ac8891","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{62a7a3ab-2217-4795-9b7a-4ddfd78cbc0e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Rewa","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

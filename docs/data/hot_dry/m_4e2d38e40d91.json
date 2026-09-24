@@ -1,0 +1,1 @@
+{"metric_id":"m_4e2d38e40d91","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{971de9ab-873c-42fb-9003-334b756e8040}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kota.AP","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

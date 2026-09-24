@@ -1,0 +1,1 @@
+{"metric_id":"m_b39d2ed0ae48","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{f3a1fc49-96f4-4b5d-93f6-c7c56311dc5f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Berhampore","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

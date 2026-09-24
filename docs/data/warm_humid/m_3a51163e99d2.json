@@ -1,0 +1,1 @@
+{"metric_id":"m_3a51163e99d2","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{18d67e07-6804-41d2-a1fb-ee2b220362f2}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sabour","state":"BR","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_94ef2bd99023","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{05343be0-9aa7-4699-bfb0-6a88b140d6c1}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sidhi","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

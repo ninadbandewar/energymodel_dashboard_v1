@@ -1,0 +1,1 @@
+{"metric_id":"m_5a1db177b167","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{d72218a8-7ebf-44e6-887c-79a77d260f6d}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jabalpur","state":"MP","latitude_category":"Latitude_GE_15","value":0.1}]}

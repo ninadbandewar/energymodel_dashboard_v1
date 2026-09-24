@@ -1,0 +1,1 @@
+{"metric_id":"m_c5b760a9709d","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{2305acde-6d0a-4eec-a03f-ebb99f6150ca}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Parbhani","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

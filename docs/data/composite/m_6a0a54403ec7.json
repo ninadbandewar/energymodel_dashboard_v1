@@ -1,0 +1,1 @@
+{"metric_id":"m_6a0a54403ec7","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{3b3fa878-51ee-45b7-932e-db57387a9b1a}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Khargone","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

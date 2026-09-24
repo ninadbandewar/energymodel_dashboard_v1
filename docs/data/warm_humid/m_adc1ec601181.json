@@ -1,0 +1,1 @@
+{"metric_id":"m_adc1ec601181","climate_zone":"Warm & Humid","variable_name":"Materials.Thickness","key_value":"{b6d02ea0-bb3c-4b81-b8a3-cbddac4ad650}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kallakkurichchi","state":"TN","latitude_category":"Latitude_LT_15","value":0.1}]}

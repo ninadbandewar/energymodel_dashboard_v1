@@ -1,0 +1,1 @@
+{"metric_id":"m_861de7d41cb0","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{fcb7cbcb-1453-41d9-8f92-84c3bc8ad8cc}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kheri","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

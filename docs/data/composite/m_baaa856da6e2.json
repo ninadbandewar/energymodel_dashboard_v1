@@ -1,0 +1,1 @@
+{"metric_id":"m_baaa856da6e2","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{db4b1927-06ce-4ccd-8dd2-539b204cecec}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Alwar","state":"RJ","latitude_category":"Latitude_GE_15","value":0.1}]}

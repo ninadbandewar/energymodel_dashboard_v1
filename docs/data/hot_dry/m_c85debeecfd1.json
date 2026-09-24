@@ -1,0 +1,1 @@
+{"metric_id":"m_c85debeecfd1","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{72f702d6-0960-41a9-95d5-f7dd14ae335c}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jalgaon","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

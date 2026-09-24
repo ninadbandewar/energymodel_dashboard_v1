@@ -1,0 +1,1 @@
+{"metric_id":"m_7c00d29d117f","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{40f38f52-548c-421b-b61d-fb43acfaa733}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Amritsar","state":"PB","latitude_category":"Latitude_GE_15","value":1400.0}]}

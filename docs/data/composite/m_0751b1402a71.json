@@ -1,0 +1,1 @@
+{"metric_id":"m_0751b1402a71","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{7bee93d2-a44a-4f7b-ad57-9698aecdde2f}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dhar.Bilaspur","state":"HP","latitude_category":"Latitude_GE_15","value":0.1}]}

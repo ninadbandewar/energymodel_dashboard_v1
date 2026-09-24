@@ -1,0 +1,1 @@
+{"metric_id":"m_c2b473e77d95","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{41684d72-c876-46de-8494-55bfd752eb00}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Pune","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

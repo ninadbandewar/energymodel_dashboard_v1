@@ -1,0 +1,1 @@
+{"metric_id":"m_f1fd889dc30c","climate_zone":"Composite","variable_name":"Materials.Density","key_value":"{11df75b0-dec3-4208-bd35-c8d73213de40}","display_name":"Materials.Density","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jhansi","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

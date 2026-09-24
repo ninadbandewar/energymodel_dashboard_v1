@@ -1,0 +1,1 @@
+{"metric_id":"m_2605f453306c","climate_zone":"Warm & Humid","variable_name":"Materials.Resistance","key_value":"{4b6cc7c2-82f5-4b57-9e63-90d2e6421713}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Paradip.CWR","state":"OR","latitude_category":"Latitude_GE_15","value":1.0}]}

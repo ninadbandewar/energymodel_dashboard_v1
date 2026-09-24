@@ -1,0 +1,1 @@
+{"metric_id":"m_e5b1e4566604","climate_zone":"Cold","variable_name":"Materials.Conductivity","key_value":"{78d435e8-77ac-4993-9071-7998671652d2}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Leh","state":"JK","latitude_category":"Latitude_GE_15","value":0.1}]}

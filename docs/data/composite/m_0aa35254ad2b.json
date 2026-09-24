@@ -1,0 +1,1 @@
+{"metric_id":"m_0aa35254ad2b","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{73746064-be3f-4fd8-b771-c096d8c4c668}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Malanjkhand","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_7a958b64af52","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{c23f188c-78bd-4767-a16e-7d5a5beee9db}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mahuva","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_69fe76ac02e9","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{9c960c46-a57d-478e-ada5-e5b736d6948b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nandyal","state":"AP","latitude_category":"Latitude_GE_15","value":1400.0}]}

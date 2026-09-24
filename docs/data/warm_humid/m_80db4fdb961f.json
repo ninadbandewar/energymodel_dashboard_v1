@@ -1,0 +1,1 @@
+{"metric_id":"m_80db4fdb961f","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{08b00ca6-bfa6-4bb1-867b-b2fc88607aa7}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Imphal","state":"MN","latitude_category":"Latitude_GE_15","value":0.1}]}

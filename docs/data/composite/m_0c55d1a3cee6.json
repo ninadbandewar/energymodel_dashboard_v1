@@ -1,0 +1,1 @@
+{"metric_id":"m_0c55d1a3cee6","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{d33502d3-43b7-4ad4-81d4-619647ddd3f0}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Una","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

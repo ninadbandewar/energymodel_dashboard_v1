@@ -1,0 +1,1 @@
+{"metric_id":"m_77ce6e760ef4","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{1e9819ea-8293-4e48-a436-a8768ca3c967}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sikar","state":"RJ","latitude_category":"Latitude_GE_15","value":0.1}]}

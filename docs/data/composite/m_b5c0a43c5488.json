@@ -1,0 +1,1 @@
+{"metric_id":"m_b5c0a43c5488","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{ae1a18b3-21e1-4d48-ae3c-4c04ae03791a}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Udaipur","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

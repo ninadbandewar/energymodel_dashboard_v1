@@ -1,0 +1,1 @@
+{"metric_id":"m_78b6c508d0a6","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{d2c6b118-7fb8-4eba-831c-83bc19c62781}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Midnapore","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_ab9ee897c77f","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{363e3df8-b031-4ffc-ad08-24974bd4ed92}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Contai","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

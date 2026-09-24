@@ -1,0 +1,1 @@
+{"metric_id":"m_dcc330b7af67","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{c3ef8a8b-dfe9-4b97-a047-e2805f17df50}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Diu.AP","state":"DD","latitude_category":"Latitude_GE_15","value":1400.0}]}

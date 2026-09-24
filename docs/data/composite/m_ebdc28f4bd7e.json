@@ -1,0 +1,1 @@
+{"metric_id":"m_ebdc28f4bd7e","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{fde72f68-0b90-4014-9481-fd5704b298d8}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Churu","state":"RJ","latitude_category":"Latitude_GE_15","value":0.1}]}

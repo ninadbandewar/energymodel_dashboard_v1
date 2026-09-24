@@ -1,0 +1,1 @@
+{"metric_id":"m_3fe39f26d634","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{9c7d5c60-1273-47ff-b9da-3d4aec74a6be}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sangrur","state":"PB","latitude_category":"Latitude_GE_15","value":0.1}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_3aca851ee8b7","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{d19c92ad-a240-4962-a176-e35451ae3cc7}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sandheads.Atoll","state":"WB","latitude_category":"Latitude_LT_15","value":1400.0}]}

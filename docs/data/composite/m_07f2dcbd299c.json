@@ -1,0 +1,1 @@
+{"metric_id":"m_07f2dcbd299c","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{8d2974d6-fdd9-45bc-a072-7dc71cf86c74}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Shahjahanpur","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

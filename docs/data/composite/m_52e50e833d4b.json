@@ -1,0 +1,1 @@
+{"metric_id":"m_52e50e833d4b","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{8c2119f3-a18c-457d-8747-9557a3227da0}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Hoshangabad","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

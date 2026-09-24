@@ -1,0 +1,1 @@
+{"metric_id":"m_89e199810405","climate_zone":"Composite","variable_name":"Materials.Thickness","key_value":"{caf89bb7-c46c-4875-a171-2ee739a97fda}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nautanwa","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

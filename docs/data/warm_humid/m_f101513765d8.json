@@ -1,0 +1,1 @@
+{"metric_id":"m_f101513765d8","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{e92f210a-4cb2-4619-b867-27f4f74d455a}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Hanamkonda","state":"TG","latitude_category":"Latitude_GE_15","value":0.1}]}

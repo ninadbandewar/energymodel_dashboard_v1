@@ -1,0 +1,1 @@
+{"metric_id":"m_db95398985b2","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{59bb7a77-2b16-449e-b151-0f6c87fec6b3}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Hut.Bay","state":"AN","latitude_category":"Latitude_LT_15","value":1400.0}]}

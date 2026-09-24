@@ -1,0 +1,1 @@
+{"metric_id":"m_b8bbc6122792","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{56051115-3579-49cd-8e95-f30d07ad2925}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Buldana","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

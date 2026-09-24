@@ -1,0 +1,1 @@
+{"metric_id":"m_abda2982fa1c","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{20477bb3-2d6b-4e48-b908-e712d09e77a4}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Rajgarh","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

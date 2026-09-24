@@ -1,0 +1,1 @@
+{"metric_id":"m_2e64f59e1aa4","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{313f2e05-d56d-43c5-b67d-40c7b4c8eaec}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Pantnagar","state":"UT","latitude_category":"Latitude_GE_15","value":0.1}]}

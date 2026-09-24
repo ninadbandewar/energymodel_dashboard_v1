@@ -1,0 +1,1 @@
+{"metric_id":"m_d05c68ab3c01","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{ac53980c-7320-41f7-a230-31a66a31f6d9}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bhuntar","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

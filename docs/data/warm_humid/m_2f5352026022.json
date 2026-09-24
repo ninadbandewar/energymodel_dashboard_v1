@@ -1,0 +1,1 @@
+{"metric_id":"m_2f5352026022","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{9bc9e155-d234-4432-9514-b12f324ee94f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sangli","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

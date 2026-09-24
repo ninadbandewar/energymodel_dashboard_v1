@@ -1,0 +1,1 @@
+{"metric_id":"m_e4e5a90bd7b7","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{93dfe86f-f550-45a9-9d41-e9fe3bdb3a87}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bhavnagar.AP","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

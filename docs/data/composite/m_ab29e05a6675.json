@@ -1,0 +1,1 @@
+{"metric_id":"m_ab29e05a6675","climate_zone":"Composite","variable_name":"Materials.Resistance","key_value":"{5fdec0c0-62aa-4a25-a802-b44db271f605}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ambikapur","state":"CT","latitude_category":"Latitude_GE_15","value":1.0}]}

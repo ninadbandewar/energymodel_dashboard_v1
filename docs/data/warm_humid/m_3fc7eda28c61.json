@@ -1,0 +1,1 @@
+{"metric_id":"m_3fc7eda28c61","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{f5cab0ec-c7a8-4d0a-8f5b-f50706ea9f16}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Adilabad","state":"TG","latitude_category":"Latitude_GE_15","value":1400.0}]}

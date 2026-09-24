@@ -1,0 +1,1 @@
+{"metric_id":"m_c418f7d2ead3","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{c3dbfc85-e249-40a4-9e95-1c89001671e6}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ghazipur","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_022401417b88","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{1915cba1-8499-4964-9128-f2c2a52e3d97}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mormugao","state":"GA","latitude_category":"Latitude_GE_15","value":1400.0}]}

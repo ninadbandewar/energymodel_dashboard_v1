@@ -1,0 +1,1 @@
+{"metric_id":"m_2468fd00a9e6","climate_zone":"Cold","variable_name":"Materials.Conductivity","key_value":"{1ac48c0b-1a4e-4b6b-9b10-02d995163c1a}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Mahabaleshwar","state":"MH","latitude_category":"Latitude_GE_15","value":0.1}]}

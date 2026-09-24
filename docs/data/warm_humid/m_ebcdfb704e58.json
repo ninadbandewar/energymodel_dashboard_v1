@@ -1,0 +1,1 @@
+{"metric_id":"m_ebcdfb704e58","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{a5fe96a4-5054-4ba4-b486-451ef759ff49}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Daman","state":"DD","latitude_category":"Latitude_GE_15","value":1400.0}]}

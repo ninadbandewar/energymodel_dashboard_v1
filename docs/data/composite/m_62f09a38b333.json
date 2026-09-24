@@ -1,0 +1,1 @@
+{"metric_id":"m_62f09a38b333","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{200b2529-12d5-4914-908f-28d97f47297a}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Raipur.AP","state":"CT","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_e1ef3d01c6ca","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{3a43a52d-c636-4847-9ad2-c6ef1faa0fdd}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Chaibasa","state":"JH","latitude_category":"Latitude_GE_15","value":1400.0}]}

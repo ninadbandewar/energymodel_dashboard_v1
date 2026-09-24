@@ -1,0 +1,1 @@
+{"metric_id":"m_2380e6eae71a","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{0c24eec7-a5cc-4eb1-9fdb-6b33daa96907}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dehradun","state":"UT","latitude_category":"Latitude_GE_15","value":1400.0}]}

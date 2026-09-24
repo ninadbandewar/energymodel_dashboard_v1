@@ -1,0 +1,1 @@
+{"metric_id":"m_656cf34585ba","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{f4abaf83-f992-4f2d-be8a-2767cf608e0f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bhadrachalam","state":"TG","latitude_category":"Latitude_GE_15","value":1400.0}]}

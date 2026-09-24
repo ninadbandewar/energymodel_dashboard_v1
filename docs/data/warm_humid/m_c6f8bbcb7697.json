@@ -1,0 +1,1 @@
+{"metric_id":"m_c6f8bbcb7697","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{e1fdcffe-51d6-4f86-8833-48d0aeccc36d}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Bankura","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_f056147a0bf1","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{9cbc8ebb-067d-4c4a-914a-3e38096b1bac}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Roorkee","state":"UT","latitude_category":"Latitude_GE_15","value":1400.0}]}

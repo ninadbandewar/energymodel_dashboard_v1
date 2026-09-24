@@ -1,0 +1,1 @@
+{"metric_id":"m_e393a79c52cf","climate_zone":"Composite","variable_name":"Materials.Resistance","key_value":"{4f3589e8-b1b3-48cb-a26a-7169d765fde3}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Champa","state":"CT","latitude_category":"Latitude_GE_15","value":1.0}]}

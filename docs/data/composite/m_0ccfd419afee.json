@@ -1,0 +1,1 @@
+{"metric_id":"m_0ccfd419afee","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{7c61f517-e4eb-4ce4-9b5d-4d251193b28f}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Chandigarh.Iafb","state":"PB","latitude_category":"Latitude_GE_15","value":0.1}]}

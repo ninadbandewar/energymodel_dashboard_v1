@@ -1,0 +1,1 @@
+{"metric_id":"m_f3b2df27c7d5","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{2acad50b-58e8-4498-a4fa-dae5d099b096}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Shajapur","state":"MP","latitude_category":"Latitude_GE_15","value":0.1}]}

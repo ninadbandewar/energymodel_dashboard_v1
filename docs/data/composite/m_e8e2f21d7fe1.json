@@ -1,0 +1,1 @@
+{"metric_id":"m_e8e2f21d7fe1","climate_zone":"Composite","variable_name":"Materials.Density","key_value":"{d6a65de2-2e8b-4476-8ea1-d379039288c0}","display_name":"Materials.Density","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Orai","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

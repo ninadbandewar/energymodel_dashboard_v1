@@ -1,0 +1,1 @@
+{"metric_id":"m_0554dc7418d7","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{5b9f89f2-8faa-4af9-a40c-361e4de8e9d9}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Tangla","state":"AS","latitude_category":"Latitude_GE_15","value":1400.0}]}

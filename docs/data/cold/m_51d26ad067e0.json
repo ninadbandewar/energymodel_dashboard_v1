@@ -1,0 +1,1 @@
+{"metric_id":"m_51d26ad067e0","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{ea1a5274-5ed4-4cbe-bff5-70daaa711429}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dalhousie","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

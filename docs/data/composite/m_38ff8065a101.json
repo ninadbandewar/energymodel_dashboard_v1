@@ -1,0 +1,1 @@
+{"metric_id":"m_38ff8065a101","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{e0a26f01-97d2-4f6b-bbee-ad53f6a910cf}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Purulia","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

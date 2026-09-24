@@ -1,0 +1,1 @@
+{"metric_id":"m_f12902fab25f","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{b83861f0-bc28-454d-aa64-d4397de320b5}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"New.Kandla","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

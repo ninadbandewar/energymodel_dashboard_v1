@@ -1,0 +1,1 @@
+{"metric_id":"m_e847d2f9238a","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{d06f0e61-1357-4164-bd41-7b99e7337203}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Jodhpur","state":"RJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

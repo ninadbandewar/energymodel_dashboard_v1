@@ -1,0 +1,1 @@
+{"metric_id":"m_d94f25ed5476","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{1bb25c30-2054-44dd-8a20-b5190b167937}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Vellore","state":"TN","latitude_category":"Latitude_LT_15","value":1400.0}]}

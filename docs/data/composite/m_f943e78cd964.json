@@ -1,0 +1,1 @@
+{"metric_id":"m_f943e78cd964","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{c1b9dfe2-e687-472c-917d-5baa99b213db}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Narnaul","state":"HR","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_f16f69f9ba53","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{b00cd450-0761-465e-9e0b-b95a73ba77e4}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Durg","state":"CT","latitude_category":"Latitude_GE_15","value":1400.0}]}

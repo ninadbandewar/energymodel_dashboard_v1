@@ -1,0 +1,1 @@
+{"metric_id":"m_dec14e7ded08","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{84cf92b1-4238-4e23-80c0-3c2db8a5975b}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ahmedabad.Intl.AP","state":"GJ","latitude_category":"Latitude_GE_15","value":1400.0}]}

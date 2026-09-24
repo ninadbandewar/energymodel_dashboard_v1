@@ -1,0 +1,1 @@
+{"metric_id":"m_f033e31b47ce","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{c6c897b0-045d-4bfe-a7a0-826929519cd5}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Chandigarh","state":"PB","latitude_category":"Latitude_GE_15","value":1400.0}]}

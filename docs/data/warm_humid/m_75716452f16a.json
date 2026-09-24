@@ -1,0 +1,1 @@
+{"metric_id":"m_75716452f16a","climate_zone":"Warm & Humid","variable_name":"Materials.Resistance","key_value":"{025c2e4d-54e7-4153-9f3e-eb21cf7ee28a}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Diamond.Harbour","state":"WB","latitude_category":"Latitude_GE_15","value":1.0}]}

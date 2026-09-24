@@ -1,0 +1,1 @@
+{"metric_id":"m_168b8135403c","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{ea9c8c6c-b951-4185-a1a6-4e11db758073}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Basti","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_fb9a0f658523","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{4933d6fc-56a4-4e04-b3a1-d1f7a65cb5cc}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gaya.Intl.AP","state":"BR","latitude_category":"Latitude_GE_15","value":1400.0}]}

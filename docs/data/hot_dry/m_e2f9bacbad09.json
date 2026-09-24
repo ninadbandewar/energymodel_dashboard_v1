@@ -1,0 +1,1 @@
+{"metric_id":"m_e2f9bacbad09","climate_zone":"Hot & Dry","variable_name":"Materials.SpecHeat","key_value":"{92e8cf0a-bd87-4544-b83a-d9dea03bb82c}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gandhi.Nagar.AP","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

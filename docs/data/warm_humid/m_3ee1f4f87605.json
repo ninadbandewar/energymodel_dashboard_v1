@@ -1,0 +1,1 @@
+{"metric_id":"m_3ee1f4f87605","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{45d31b0d-00d3-439e-b657-71b0eddd6ab8}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Malda","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

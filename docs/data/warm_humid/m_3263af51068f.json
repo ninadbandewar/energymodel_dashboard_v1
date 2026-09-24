@@ -1,0 +1,1 @@
+{"metric_id":"m_3263af51068f","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{185e6ae4-4501-4139-8a0d-ea7d34b1fdc7}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Maya.Bandar","state":"AN","latitude_category":"Latitude_LT_15","value":1400.0}]}

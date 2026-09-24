@@ -1,0 +1,1 @@
+{"metric_id":"m_767fb09279e2","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{320a1628-9308-4c61-a8f1-55a131b82de7}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Chamoli","state":"UT","latitude_category":"Latitude_GE_15","value":1400.0}]}

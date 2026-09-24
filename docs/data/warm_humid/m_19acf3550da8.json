@@ -1,0 +1,1 @@
+{"metric_id":"m_19acf3550da8","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{6d73e27e-be4d-46d4-8346-e2fa98b347ca}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Agartala.AP","state":"TR","latitude_category":"Latitude_GE_15","value":1400.0}]}

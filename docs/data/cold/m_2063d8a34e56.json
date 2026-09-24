@@ -1,0 +1,1 @@
+{"metric_id":"m_2063d8a34e56","climate_zone":"Cold","variable_name":"Materials.SpecHeat","key_value":"{ed6b1e9a-7444-4a3d-a4df-f2d9b984af9e}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kullu.Manali","state":"HP","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_9d3c98072dce","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{859b974c-c722-417d-bdb4-b933ccc9e24f}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Koraput","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

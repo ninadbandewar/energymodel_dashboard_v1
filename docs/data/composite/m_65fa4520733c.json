@@ -1,0 +1,1 @@
+{"metric_id":"m_65fa4520733c","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{8e1ced16-abfa-4c76-bef1-eb9ce5ffbaad}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Faizabad","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

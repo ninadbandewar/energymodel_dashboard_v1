@@ -1,0 +1,1 @@
+{"metric_id":"m_c36b7e1d9257","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{447b5084-52c9-4342-b6a9-c6417158bbd8}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Pachmarhi","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

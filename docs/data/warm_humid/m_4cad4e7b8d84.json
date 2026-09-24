@@ -1,0 +1,1 @@
+{"metric_id":"m_4cad4e7b8d84","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{54f3e52c-6434-4767-ade0-42b898a68c0c}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Karaikal","state":"PY","latitude_category":"Latitude_LT_15","value":1400.0}]}

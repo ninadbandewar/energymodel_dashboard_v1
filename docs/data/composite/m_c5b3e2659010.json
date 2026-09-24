@@ -1,0 +1,1 @@
+{"metric_id":"m_c5b3e2659010","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{021b7458-658b-4832-a602-922fec35e8cd}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Gwalior","state":"MP","latitude_category":"Latitude_GE_15","value":1400.0}]}

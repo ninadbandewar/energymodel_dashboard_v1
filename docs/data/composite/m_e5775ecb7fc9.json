@@ -1,0 +1,1 @@
+{"metric_id":"m_e5775ecb7fc9","climate_zone":"Composite","variable_name":"Materials.Resistance","key_value":"{3b3e893b-b16a-4bf0-a166-7147505f1dfc}","display_name":"Materials.Resistance","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dehri","state":"BR","latitude_category":"Latitude_GE_15","value":1.0}]}

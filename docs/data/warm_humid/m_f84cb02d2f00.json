@@ -1,0 +1,1 @@
+{"metric_id":"m_f84cb02d2f00","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{0b122a03-9345-49d8-bde9-2cadd3413031}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Burdwan","state":"WB","latitude_category":"Latitude_GE_15","value":1400.0}]}

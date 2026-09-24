@@ -1,0 +1,1 @@
+{"metric_id":"m_19f3c188c03b","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{21627eff-ce1a-4970-90c5-a4d39011c8c3}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nagpur-Ambedkar.Intl.AP","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

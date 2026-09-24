@@ -1,0 +1,1 @@
+{"metric_id":"m_107e5e27e670","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{5ba572da-46c3-40ff-b37a-cd5a6904b3e8}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Karnal","state":"HR","latitude_category":"Latitude_GE_15","value":1400.0}]}

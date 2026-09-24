@@ -1,0 +1,1 @@
+{"metric_id":"m_008a5ee0e33c","climate_zone":"Composite","variable_name":"Materials.Thickness","key_value":"{33da960a-536e-44ce-a079-06efc5306720}","display_name":"Materials.Thickness","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Ballia","state":"UP","latitude_category":"Latitude_GE_15","value":0.1}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_22a672de4244","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{3ca7b9dc-b4f0-4c3c-aeb4-1cc136e45ad1}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kurnool","state":"AP","latitude_category":"Latitude_GE_15","value":1400.0}]}

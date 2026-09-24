@@ -1,0 +1,1 @@
+{"metric_id":"m_9314c37892b2","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{579619e9-9863-4a78-81b6-00c3a104daa2}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Dahanu","state":"MH","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_457450dfc720","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{ecccb11a-c5a0-44fd-9f46-0cccd7ffd3c6}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Kohima","state":"NL","latitude_category":"Latitude_GE_15","value":1400.0}]}

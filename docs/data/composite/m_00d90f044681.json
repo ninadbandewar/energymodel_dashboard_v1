@@ -1,0 +1,1 @@
+{"metric_id":"m_00d90f044681","climate_zone":"Composite","variable_name":"Materials.SpecHeat","key_value":"{e5877020-b8a4-4525-9085-8035204fddf9}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Aligarh","state":"UP","latitude_category":"Latitude_GE_15","value":1400.0}]}

@@ -1,0 +1,1 @@
+{"metric_id":"m_6388e4045247","climate_zone":"Warm & Humid","variable_name":"Materials.SpecHeat","key_value":"{5d3205bc-0636-4e71-9096-eba814871009}","display_name":"Materials.SpecHeat","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Sambalpur","state":"OR","latitude_category":"Latitude_GE_15","value":1400.0}]}

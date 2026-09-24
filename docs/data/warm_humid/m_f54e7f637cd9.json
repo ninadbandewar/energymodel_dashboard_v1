@@ -1,0 +1,1 @@
+{"metric_id":"m_f54e7f637cd9","climate_zone":"Warm & Humid","variable_name":"Materials.Conductivity","key_value":"{7abb7cb5-ce75-4cd5-95a5-5e0c52cfb488}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Tezpur.Bindukuri","state":"AS","latitude_category":"Latitude_GE_15","value":0.1}]}

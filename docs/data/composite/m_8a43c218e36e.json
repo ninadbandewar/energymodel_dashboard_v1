@@ -1,0 +1,1 @@
+{"metric_id":"m_8a43c218e36e","climate_zone":"Composite","variable_name":"Materials.Conductivity","key_value":"{055158be-f312-400c-8dcb-8fc370b6d7b3}","display_name":"Materials.Conductivity","unit":"","aggregation":"direct","reporting_frequency":"","simulation_count":1,"values":[{"location":"Nagpur.Mayo.Hospital","state":"MH","latitude_category":"Latitude_GE_15","value":0.1}]}
