@@ -450,12 +450,35 @@ function scopeFor(key,name) {
     return "building";
 }
 
-function aggregationFor(name,unit) {
-    const text = `${name||""} ${unit||""}`.toLowerCase();
-    if (/\b(j|kj|mj|gj|wh|kwh|mwh)\b/.test(text)) return "sum";
-    if (/(power|load|capacity|rate)/.test(text)) return "max";
+// Must match build_reference.py's aggregation_for() EXACTLY, including
+// its substring (not word-boundary) matching and the "w/" exclusion —
+// this value becomes part of the key used to match an uploaded model's
+// metrics against the reference population (see metricKey below), so
+// any drift here silently breaks matching for affected metrics.
+function aggregationFor(name, unit) {
+    const text = `${name || ""} ${unit || ""}`.toLowerCase();
+    const energyUnits = ["j", "kj", "mj", "gj", "wh", "kwh", "mwh"];
+    if (energyUnits.some(x => text.includes(x)) && !text.includes("w/")) {
+        return "sum";
+    }
+    if (["power", "load", "capacity", "rate"].some(x => text.includes(x))) {
+        return "max";
+    }
     return "mean";
 }
+
+// Must match build_reference.py's BUILDING_KEYS filter EXACTLY: when
+// building reference_metrics.json, per-end-use meters (e.g. lighting,
+// cooling, individual equipment meters) are dropped for building
+// scope — only whole-facility meters are kept. Skipping this filter
+// here means the uploaded model would carry many building-scope meter
+// records that have NO counterpart in the reference set at all, so
+// they'd just be silently skipped in compareRecords — not wrong, but
+// wasted parsing, and worth staying consistent with the server side.
+const BUILDING_METER_KEYS = new Set([
+    "", "whole building", "facility", "whole building:facility",
+    "electricity:facility", "gas:facility", "naturalgas:facility"
+]);
 
 async function parseSQL(file) {
     const SQL = await getSQL();
@@ -480,6 +503,7 @@ async function parseSQL(file) {
     for (const [id,key,name,freq,unit,isMeter] of dict) {
         const scope = scopeFor(key,name);
         if (!scope) continue;
+        if (isMeter && scope === "building" && !BUILDING_METER_KEYS.has(norm(key))) continue;
 
         let query, params;
         if (env.length && timeCols.has("EnvironmentPeriodIndex")) {
