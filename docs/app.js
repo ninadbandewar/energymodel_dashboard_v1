@@ -23,8 +23,45 @@ function path(p) {
     return p.split("/").map(encodeURIComponent).join("/");
 }
 
+// Trim, lowercase, and collapse internal whitespace runs to a single
+// space — used for climate-zone comparisons so labels from the
+// dropdown ("Hot & Dry") reliably match whatever the parser wrote
+// from folder names, even with minor spacing/casing differences.
 function norm(x) {
-    return String(x ?? "").trim().toLowerCase();
+    return String(x ?? "").trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+// Standard linear-interpolation quantile (matches numpy/Plotly's
+// default "linear" method).
+function quantile(sortedValues, q) {
+    const pos = (sortedValues.length - 1) * q;
+    const base = Math.floor(pos);
+    const rest = pos - base;
+    if (sortedValues[base + 1] !== undefined) {
+        return sortedValues[base] +
+            rest * (sortedValues[base + 1] - sortedValues[base]);
+    }
+    return sortedValues[base];
+}
+
+// Computes box-plot statistics ourselves (rather than letting Plotly
+// derive its own from raw values), so the drawn whiskers and the
+// outlier flags on the scatter points are guaranteed to agree.
+// - fenceLow/fenceHigh: standard Tukey 1.5×IQR outlier cutoff.
+// - whiskerLow/whiskerHigh: the most extreme *actual* data point
+//   still within that fence — where the whisker is drawn to.
+function computeBoxStats(numericValues) {
+    const sorted = [...numericValues].sort((a, b) => a - b);
+    const q1 = quantile(sorted, 0.25);
+    const median = quantile(sorted, 0.5);
+    const q3 = quantile(sorted, 0.75);
+    const iqr = q3 - q1;
+    const fenceLow = q1 - 1.5 * iqr;
+    const fenceHigh = q3 + 1.5 * iqr;
+    const inBounds = sorted.filter(v => v >= fenceLow && v <= fenceHigh);
+    const whiskerLow = inBounds.length ? inBounds[0] : q1;
+    const whiskerHigh = inBounds.length ? inBounds[inBounds.length - 1] : q3;
+    return { q1, median, q3, fenceLow, fenceHigh, whiskerLow, whiskerHigh };
 }
 
 function status(el, msg, error=false) {
@@ -41,7 +78,16 @@ async function loadReference() {
         status(exploreStatus, `${catalog.length.toLocaleString()} metrics loaded. Select a climate zone.`);
     } catch(e) {
         console.error(e);
-        status(exploreStatus, `Could not load reference data: ${e.message}`, true);
+        const isFileProtocol = window.location.protocol === "file:";
+        status(
+            exploreStatus,
+            isFileProtocol
+                ? "Could not load reference data. You're opening this file directly (file://) — " +
+                  "browsers block fetch() for local files. Serve this folder with a local server " +
+                  "instead, e.g. run 'python -m http.server' and open http://localhost:8000/."
+                : `Could not load reference data: ${e.message}`,
+            true
+        );
     }
 }
 loadReference();
@@ -64,17 +110,27 @@ climateSelect.addEventListener("change", () => {
     chartContainer.hidden = true;
     metricInfo.hidden = true;
 
-    climateMetrics = catalog.filter(x => x.climate_zone === climate);
-    metricSearch.disabled = !climate;
-
     if (!climate) {
+        metricSearch.disabled = true;
         metricSearch.placeholder = "Select a climate zone first...";
         status(exploreStatus, "Select a climate zone.");
         return;
     }
 
+    climateMetrics = catalog.filter(x => norm(x.climate_zone) === norm(climate));
+    metricSearch.disabled = false;
     metricSearch.placeholder = "Search EnergyPlus variables...";
-    status(exploreStatus, `${climateMetrics.length.toLocaleString()} metrics available.`);
+
+    if (!climateMetrics.length && catalog.length) {
+        const available = [...new Set(catalog.map(m => m.climate_zone))].join(", ");
+        status(
+            exploreStatus,
+            `No metrics found for "${climate}". Climate zones present in the catalog: ${available || "(none)"}.`,
+            true
+        );
+    } else {
+        status(exploreStatus, `${climateMetrics.length.toLocaleString()} metrics available.`);
+    }
 });
 
 metricSearch.addEventListener("input", () => {
@@ -86,8 +142,8 @@ metricSearch.addEventListener("input", () => {
 
     const matches = climateMetrics.filter(m =>
         [
-            m.variable_name, m.key_value, m.unit,
-            m.scope, m.aggregation
+            m.variable_name, m.display_name, m.key_value,
+            m.unit, m.scope, m.aggregation
         ].map(norm).join(" ").includes(q)
     ).slice(0, 30);
 
@@ -102,13 +158,23 @@ metricSearch.addEventListener("input", () => {
         b.className = "suggestion";
         b.innerHTML = `<div class="suggestion-title"></div><div class="suggestion-details"></div>`;
         b.querySelector(".suggestion-title").textContent = metric.variable_name;
-        b.querySelector(".suggestion-details").textContent =
-            [metric.scope, metric.key_value, metric.unit, metric.aggregation]
-            .filter(Boolean).join(" • ");
+
+        // Same convention as the explorer-only version: key value and
+        // unit always shown, aggregation shown unless it's "direct"
+        // (which just means "not aggregated" and isn't informative).
+        const parts = [];
+        if (metric.key_value) parts.push(metric.key_value);
+        if (metric.unit) parts.push(metric.unit);
+        if (metric.aggregation && metric.aggregation !== "direct") {
+            parts.push(metric.aggregation);
+        }
+        b.querySelector(".suggestion-details").textContent = parts.join(" • ");
+
         b.onclick = () => selectExploreMetric(metric);
         suggestions.appendChild(b);
     }
     suggestions.hidden = false;
+    status(exploreStatus, `${matches.length} matching variable(s).`);
 });
 
 document.addEventListener("click", e => {
@@ -128,9 +194,10 @@ async function selectExploreMetric(metric) {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         const data = await r.json();
         showMetricInfo(data);
-        drawExplore(data);
         chartContainer.hidden = false;
-        status(exploreStatus, `${data.simulation_count ?? data.values.length} simulations plotted.`);
+        // drawExplore sets its own status message, including the
+        // outlier count once it's finished computing the box stats.
+        drawExplore(data);
     } catch(e) {
         status(exploreStatus, `Could not load metric: ${e.message}`, true);
     }
@@ -153,25 +220,89 @@ function showMetricInfo(data) {
 
 function drawExplore(data) {
     const values = (data.values || []).map(x => ({
-        location:x.location, value:Number(x.value)
+        location: x.location, value: Number(x.value)
     })).filter(x => Number.isFinite(x.value));
 
-    Plotly.react("chart", [
-        {type:"box", y:values.map(x=>x.value), name:"Distribution", boxpoints:false},
-        {
-            type:"scatter", mode:"markers",
-            x:values.map(()=>"All simulations"),
-            y:values.map(x=>x.value),
-            customdata:values.map(x=>[x.location]),
-            marker:{size:8,opacity:.7},
-            hovertemplate:"<b>%{customdata[0]}</b><br>Value: %{y:,.2f}<extra></extra>"
-        }
-    ], {
-        margin:{l:80,r:30,t:20,b:60},
-        showlegend:false,
-        xaxis:{showticklabels:false},
-        yaxis:{title:data.unit || "Value"}
-    }, {responsive:true,displaylogo:false});
+    if (!values.length) {
+        status(exploreStatus, "This metric contains no numeric values.", true);
+        return;
+    }
+
+    const numericValues = values.map(x => x.value);
+    const stats = computeBoxStats(numericValues);
+    const isOutlier = v => v < stats.fenceLow || v > stats.fenceHigh;
+
+    const normalValues = values.filter(x => !isOutlier(x.value));
+    const outlierValues = values.filter(x => isOutlier(x.value));
+
+    // Precomputed statistics, not raw y-values — forces Plotly to
+    // draw exactly the box/whiskers we calculated above, so they
+    // match the outlier flags on the points below.
+    const boxTrace = {
+        type: "box",
+        q1: [stats.q1],
+        median: [stats.median],
+        q3: [stats.q3],
+        lowerfence: [stats.whiskerLow],
+        upperfence: [stats.whiskerHigh],
+        name: "Distribution",
+        boxpoints: false,
+        showlegend: false
+    };
+
+    function toPointTrace(valueSet, name, color, symbol, size) {
+        return {
+            type: "scatter",
+            mode: "markers",
+            x: valueSet.map(() => "All simulations"),
+            y: valueSet.map(x => x.value),
+            customdata: valueSet.map(x => [x.location]),
+            marker: { size, opacity: 0.75, color, symbol },
+            hovertemplate:
+                "<b>%{customdata[0]}</b><br>Value: %{y:,.2f}" +
+                ` ${data.unit || ""}` +
+                `${name === "Outliers" ? " (outlier)" : ""}` +
+                "<extra></extra>",
+            name
+        };
+    }
+
+    const pointTrace = toPointTrace(normalValues, "Locations", "#3b7dd8", "circle", 7);
+
+    // Points beyond 1.5×IQR — same rule the whiskers use, drawn
+    // separately so they're visually flagged instead of blending in.
+    const outlierTrace = toPointTrace(outlierValues, "Outliers", "#d43d3d", "diamond", 9);
+
+    Plotly.react("chart", [boxTrace, pointTrace, outlierTrace], {
+        margin: { l: 80, r: 30, t: outlierValues.length ? 50 : 20, b: 60 },
+        showlegend: outlierValues.length > 0,
+        legend: { orientation: "h", y: 1.08 },
+        xaxis: { showticklabels: false },
+        yaxis: { title: data.unit || "Value" }
+    }, { responsive: true, displaylogo: false });
+
+    const count = data.simulation_count ?? values.length;
+    const fenceText =
+        `(outside ${stats.fenceLow.toLocaleString(undefined, {maximumFractionDigits: 2})}` +
+        `–${stats.fenceHigh.toLocaleString(undefined, {maximumFractionDigits: 2})} ${data.unit || ""})`;
+
+    status(
+        exploreStatus,
+        outlierValues.length
+            ? `${count.toLocaleString()} simulations plotted — ${outlierValues.length} flagged as outliers ${fenceText}.`
+            : `${count.toLocaleString()} simulations plotted — no statistical outliers detected ${fenceText}.`
+    );
+
+    document.getElementById("chart").on("plotly_click", event => {
+        const point = event.points && event.points[0];
+        if (!point || !point.customdata) return;
+        const location = point.customdata[0];
+        const value = Number(point.y);
+        status(
+            exploreStatus,
+            `${location}: ${value.toLocaleString(undefined, {maximumFractionDigits: 2})} ${data.unit || ""}`
+        );
+    });
 }
 
 /* ---------- upload comparison ---------- */
@@ -408,7 +539,7 @@ function metricKey(m,climate) {
 }
 
 function compareRecords(records, climate) {
-    const ref = reference.metrics.filter(x=>x.climate_zone===climate);
+    const ref = reference.metrics.filter(x => norm(x.climate_zone) === norm(climate));
     const index = new Map(ref.map(x=>[
         metricKey(x,climate),x
     ]));
