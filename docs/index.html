@@ -1,18 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Energy Model Results — V1</title>
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css">
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<!-- sql.js is used only in the browser to read an uploaded SQLite EnergyPlus SQL file. -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/sql-wasm.js"></script>
 </head>
 <body>
 <main class="page">
 <section class="app">
-
 <header class="header">
 <h1>Energy Model Results</h1>
 <p>Explore the simulation population or check a building against it.</p>
@@ -29,29 +27,21 @@
 <label for="climateSelect">Climate Zone</label>
 <select id="climateSelect">
 <option value="">Select climate zone</option>
-<option>Cold</option>
-<option>Composite</option>
-<option>Temperate</option>
-<option>Hot &amp; Dry</option>
-<option>Warm &amp; Humid</option>
+<option>Cold</option><option>Composite</option><option>Temperate</option>
+<option>Hot &amp; Dry</option><option>Warm &amp; Humid</option>
 </select>
 </div>
-
 <div class="field search-field">
 <label for="metricSearch">Variable / Metric</label>
 <div class="search-wrap">
-<input id="metricSearch" type="search" disabled
-placeholder="Select a climate zone first..." autocomplete="off">
+<input id="metricSearch" type="search" disabled placeholder="Select a climate zone first..." autocomplete="off">
 <div id="suggestions" class="suggestions" hidden></div>
 </div>
 </div>
 </div>
-
 <div id="exploreStatus" class="status">Loading metric catalog...</div>
 <section id="metricInfo" class="metric-info" hidden></section>
-<section id="chartContainer" class="chart-card" hidden>
-<div id="chart"></div>
-</section>
+<section id="chartContainer" class="chart-card" hidden><div id="chart"></div></section>
 </section>
 
 <section id="compare" class="panel">
@@ -59,56 +49,32 @@ placeholder="Select a climate zone first..." autocomplete="off">
 <h2>Check Your Model</h2>
 <p>Upload an EnergyPlus SQL database or HTML report. The dashboard compares building- and system-level metrics against the selected climate-zone reference population. Your file is processed in your browser.</p>
 </div>
-
 <div class="controls compare-controls">
 <div class="field">
 <label for="compareClimate">Climate Zone</label>
 <select id="compareClimate">
 <option value="">Select climate zone</option>
-<option>Cold</option>
-<option>Composite</option>
-<option>Temperate</option>
-<option>Hot &amp; Dry</option>
-<option>Warm &amp; Humid</option>
+<option>Cold</option><option>Composite</option><option>Temperate</option>
+<option>Hot &amp; Dry</option><option>Warm &amp; Humid</option>
 </select>
 </div>
-
 <div class="field">
 <label for="modelFile">EnergyPlus result</label>
 <input id="modelFile" type="file" accept=".sql,.htm,.html">
 </div>
 </div>
-
 <div id="compareStatus" class="status">Select a climate zone and upload a result file.</div>
-
 <div id="summary" class="summary" hidden></div>
-
-<div id="outlierChart" class="chart-card" hidden>
-<div id="outlierPlot"></div>
-</div>
-
+<div id="outlierChart" class="chart-card" hidden><div id="outlierPlot"></div></div>
 <div id="resultsWrap" class="results-wrap" hidden>
 <h3>Outliers</h3>
-<div class="table-scroll">
-<table id="resultsTable">
-<thead>
-<tr>
-<th>Scope</th>
-<th>Metric</th>
-<th>Your value</th>
-<th>Reference median</th>
-<th>Reference range</th>
-<th>Difference</th>
-</tr>
-</thead>
-<tbody></tbody>
-</table>
-</div>
+<div class="table-scroll"><table id="resultsTable"><thead><tr>
+<th>Scope</th><th>Metric</th><th>Your value</th><th>Reference median</th><th>Reference range</th><th>Difference</th>
+</tr></thead><tbody></tbody></table></div>
 </div>
 </section>
-
 </section>
 </main>
-<script src="app.js?v=3"></script>
+<script src="app.js"></script>
 </body>
 </html>
