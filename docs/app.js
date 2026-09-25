@@ -13,6 +13,7 @@ const summary = $("summary");
 const resultsWrap = $("resultsWrap");
 const resultsTable = $("resultsTable");
 const outlierChart = $("outlierChart");
+const compareProgress = $("compareProgress");
 
 let catalog = [];
 let climateMetrics = [];
@@ -176,7 +177,7 @@ function convertUnitValue(value,from,to){
 
 async function runComparison(){
     const file=modelFile.files[0],climate=compareClimate.value;
-    summary.hidden=true;resultsWrap.hidden=true;outlierChart.hidden=true;
+    summary.hidden=true;resultsWrap.hidden=true;outlierChart.hidden=true;compareProgress.hidden=true;
     if(!climate||!file){status(compareStatus,"Select a climate zone and upload a result file.");return;}
     if(!catalogReady){status(compareStatus,"Metric catalog is still loading.",true);return;}
     status(compareStatus,`Reading ${file.name}...`);
@@ -245,28 +246,68 @@ function metricScope(metric){
 }
 function metricKey(m){return [metricScope(m),norm(m.variable_name),norm(m.key_value||""),norm(m.unit||""),norm(m.aggregation||"")].join("||");}
 
+function updateCompareProgress(done,total,matched=0){
+    const pct=total?Math.round(done/total*100):0;
+    const bar=$("compareProgressBar"),label=$("compareProgressLabel");
+    if(bar)bar.style.width=`${pct}%`;
+    if(label)label.textContent=`Checking reference metrics: ${done.toLocaleString()} / ${total.toLocaleString()} (${pct}%) • ${matched.toLocaleString()} matched`;
+}
+
 async function compareRecords(records,climate){
     const candidates=catalog.filter(m=>climateNorm(m.climate_zone)===climateNorm(climate)&&["building","system"].includes(metricScope(m))&&m.file);
     const byKey=new Map();
     for(const m of candidates){
         const k=metricKey(m);if(!byKey.has(k))byKey.set(k,[]);byKey.get(k).push(m);
     }
-    const results=[];const used=new Set();let loaded=0;
-    for(const [key,ms] of byKey){
-        try{
-            const payload=await loadMetric(ms[0]);const vals=(payload.values||[]).map(x=>Number(x.value)).filter(Number.isFinite);if(vals.length<4)continue;
+
+    // Index the uploaded model once. The previous version compared every uploaded
+    // record against every reference metric, which becomes very expensive.
+    const recordsByKey=new Map();
+    for(const record of records){
+        const k=metricKey(record);
+        if(!recordsByKey.has(k))recordsByKey.set(k,[]);
+        recordsByKey.get(k).push(record);
+    }
+
+    const entries=[...byKey.entries()];
+    const results=[];const used=new Set();let done=0,matched=0;
+    compareProgress.hidden=false;
+    updateCompareProgress(0,entries.length,0);
+    status(compareStatus,`Preparing ${entries.length.toLocaleString()} reference metrics...`);
+
+    // Fetch reference files in parallel batches. This keeps the browser responsive
+    // while replacing the old one-file-at-a-time loop.
+    const batchSize=24;
+    for(let start=0;start<entries.length;start+=batchSize){
+        const batch=entries.slice(start,start+batchSize);
+        const loaded=await Promise.all(batch.map(async([key,ms])=>{
+            try{
+                const payload=await loadMetric(ms[0]);
+                const vals=(payload.values||[]).map(x=>Number(x.value)).filter(Number.isFinite);
+                return {key,metric:ms[0],vals};
+            }catch(e){console.warn("Reference metric load failed",key,e);return {key,metric:ms[0],vals:[]};}
+        }));
+
+        for(const {key,metric,vals} of loaded){
+            done++;
+            if(vals.length<4)continue;
+            const modelRecords=recordsByKey.get(key)||[];
+            if(!modelRecords.length)continue;
             const stats=boxStats(vals);
-            for(const record of records){
-                if(metricKey(record)!==key)continue;
-                const converted=convertUnitValue(record.value,record.unit,ms[0].unit);if(!Number.isFinite(converted))continue;
+            for(const record of modelRecords){
+                const converted=convertUnitValue(record.value,record.unit,metric.unit);if(!Number.isFinite(converted))continue;
                 const out=converted<stats.lowerFence||converted>stats.upperFence;
                 const robustZ=stats.iqr===0?0:(converted-stats.median)/(stats.iqr/1.349);
                 const id=`${key}::${record.scope}::${record.variable_name}`;if(used.has(id))continue;used.add(id);
-                results.push({...record,value:converted,reference:{...ms[0],median:stats.median,lower_fence:stats.lowerFence,upper_fence:stats.upperFence,q1:stats.q1,q3:stats.q3,iqr:stats.iqr,reference_count:vals.length},isOutlier:out,direction:converted>stats.upperFence?"high":converted<stats.lowerFence?"low":"within",robustZ});
+                matched++;
+                results.push({...record,value:converted,reference:{...metric,median:stats.median,lower_fence:stats.lowerFence,upper_fence:stats.upperFence,q1:stats.q1,q3:stats.q3,iqr:stats.iqr,reference_count:vals.length},isOutlier:out,direction:converted>stats.upperFence?"high":converted<stats.lowerFence?"low":"within",robustZ});
             }
-            loaded++;
-        }catch(e){console.warn("Reference metric load failed",key,e);}
+        }
+        updateCompareProgress(done,entries.length,matched);
+        status(compareStatus,`Checking reference metrics: ${done.toLocaleString()} / ${entries.length.toLocaleString()} • ${matched.toLocaleString()} matched`);
+        await new Promise(requestAnimationFrame);
     }
+    updateCompareProgress(entries.length,entries.length,matched);
     return results.sort((a,b)=>Math.abs(b.robustZ)-Math.abs(a.robustZ));
 }
 
@@ -277,6 +318,7 @@ function renderComparison(results,fileName){
     resultsTable.querySelector("tbody").innerHTML="";
     for(const x of outliers){const r=x.reference,tr=document.createElement("tr"),diff=r.median===0?NaN:((x.value-r.median)/Math.abs(r.median))*100;tr.innerHTML=`<td>${escapeHTML(x.scope)}</td><td>${escapeHTML(x.variable_name)}</td><td>${fmt(x.value)} ${escapeHTML(x.unit)}</td><td>${fmt(r.median)} ${escapeHTML(r.unit)}</td><td>${fmt(r.lower_fence)} – ${fmt(r.upper_fence)} ${escapeHTML(r.unit)}</td><td>${Number.isFinite(diff)?`${diff>=0?"+":""}${fmt(diff)}%`:"—"}</td>`;resultsTable.querySelector("tbody").appendChild(tr);}
     resultsWrap.hidden=false;
+    compareProgress.hidden=true;
     if(outliers.length){const top=outliers.slice(0,25).reverse();Plotly.react("outlierPlot",[{type:"bar",orientation:"h",x:top.map(x=>x.robustZ),y:top.map(x=>x.variable_name),customdata:top.map(x=>[x.value,x.unit,x.direction]),hovertemplate:"<b>%{y}</b><br>Model: %{customdata[0]:,.2f} %{customdata[1]}<br>Direction: %{customdata[2]}<br>Robust z: %{x:.2f}<extra></extra>"}],{margin:{l:280,r:30,t:20,b:50},xaxis:{title:"Robust z-score"},yaxis:{automargin:true},shapes:[{type:"line",x0:0,x1:0,y0:-.5,y1:top.length-.5}]},{responsive:true,displaylogo:false});outlierChart.hidden=false;}
     status(compareStatus,`${fileName}: ${results.length} comparable building/system metrics found; ${outliers.length} flagged as outliers.${results.length===0?" No metrics matched the selected climate zone — this is a matching issue, not evidence that the model has no discrepancies.":""}`);
 }
